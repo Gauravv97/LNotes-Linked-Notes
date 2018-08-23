@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Lnotes</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="Scan">Scan</string>
+    <string name="img">Image</string>
+    <string name="mrk">Marker</string>
+    <string name="Capture">Capture</string>
+    <string name="save">save</string>
+    <string name="action_settings">Settings</string>
+    <string name="modify_image">Modify</string>
+    <string name="view_original">View Original</string>
+    <string name="preference_file_key">preference_file_key</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <string name="pref_settings_title">Settings</string>
+    <string name="pref_ScanningModes">Default scanning mode</string>
+    <string-array name="ScanModeNames">
+        <item>Original</item>
+        <item>GrayScale</item>
+        <item>Color Scan</item>
+        <item>Black and White 1</item>
+        <item>Black and White 2</item>
+    </string-array>
+    <string-array name="ScanModeValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string name="pref_scanQuality">Scanned Image quality</string>
+    <string name="pref_summaryScanQuality">Higher the quality higher the image size</string>
+    <!-- Example settings end -->
+
+</resources>

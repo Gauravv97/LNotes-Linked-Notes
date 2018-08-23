@@ -1,1 +1,1 @@
-# LNotes:Linked-Notes|Android DocumentScanner and Retriever
+# LNotes:Linked Notes Android DocumentScanner and Retriever

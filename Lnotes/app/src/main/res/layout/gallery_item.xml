@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/gallery_layout"
+    android:paddingTop="40dp"
+    android:paddingBottom="40dp">
+
+    <ImageView
+        android:id="@+id/gallery_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter" />
+
+    <LinearLayout
+        android:id="@+id/gallery_item_options"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_gravity="end|bottom"
+        android:background="@color/grid_item_background"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/gallery_item_delete"
+            android:src="@drawable/ic_delete_white_24dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/no_color"
+             />
+
+        <ImageButton
+            android:id="@+id/gallery_item_edit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_edit_black_24dp"
+            android:layout_weight="1"
+            android:background="@color/no_color"
+            android:tint="@color/white"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/itemNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:background="@drawable/circle"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:text="TextView" />
+
+
+</FrameLayout>

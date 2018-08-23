@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.woxthebox.draglistview.swipe.ListSwipeItem
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="1dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:swipeViewId="@+id/item_layout">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+        android:id="@id/item_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:paddingStart="30dp"
+            android:paddingEnd="0dp"
+        android:background="@drawable/shape"
+        >
+
+        <ImageView
+            android:id="@+id/imageView_listItem"
+            android:foregroundGravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            />
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/scanPadding">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_alignParentTop="true"
+                android:gravity="center_vertical">
+                <TextView
+                    android:id="@+id/text_listItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:fontFamily="casual"
+                    android:gravity="end"
+                    android:lines="1"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+                <TextView
+                    android:id="@+id/dateTime_listItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:fontFamily="casual"
+                    android:gravity="end"
+                    android:lines="1"/>
+                <TextView
+                    android:id="@+id/pages_listItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:fontFamily="casual"
+                    android:gravity="end"
+                    android:lines="1"/>
+
+            </LinearLayout>
+
+
+
+            <CheckBox
+                android:id="@+id/multiSelectcheckBox"
+                android:layout_width="wrap_content"
+                android:clickable="false"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                 />
+
+            <ImageView
+                android:id="@+id/dragHandle_listView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_drag_handle_black_24dp" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/dragView_listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        />
+    </FrameLayout>
+
+
+</com.woxthebox.draglistview.swipe.ListSwipeItem>
