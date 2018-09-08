@@ -19,8 +19,8 @@ Download apk from [here](/apk/)
 ## Some Samples
 
 <p align="center">
-<img src="Sample/Img1.png" width=200>   <img src="Sample/Img2.png" width=200>   <img src="Sample/Img3.png" width=600></br>
-<img src="Sample/Img6.png" width=200>   <img src="Sample/Img4.png" width=200>   <img src="Sample/Img5.png" width=200></br>
+<img src="Sample/Img1.jpg" width=200>   <img src="Sample/Img2.jpg" width=200>   <img src="Sample/Img3.jpg" width=200></br>
+<img src="Sample/Img6.jpg" width=200>   <img src="Sample/Img4.jpg" width=200>   <img src="Sample/Img5.jpg" width=200></br>
 <img src="Sample/Img9.png" width=200></br>   
 </p>
 
