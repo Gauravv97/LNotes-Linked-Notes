@@ -1,5 +1,5 @@
-# LNotes:Linked Notes Android DocumentScanner and Retriever
-===========================================================
+LNotes:Linked Notes Android DocumentScanner and Retriever
+=========================================================
 
 An open-source android scanner with added functionality of assigning an image as a marker to your notes for easy retreival.
 LNotes uses OpenCV for enhancing documents and comes with 5 diffrent filters. For assigning a marker and scanning it to match with previous markers we use ORB image matcher with cached key Points to have insanely fast image matching. 
@@ -23,6 +23,7 @@ Download apk from [here](/apk/)
 <img src="Sample/Img2.png" width=600></br>
 <img src="Sample/Img3.png" width=600></br>
 <img src="Sample/Img6.png" width=600></br>
+<img src="Sample/Img4.png" width=600></br>
 <img src="Sample/Img5.png" width=600></br>
 <img src="Sample/Img9.png" width=600></br>   
 </p>
