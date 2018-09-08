@@ -1,4 +1,4 @@
-ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+armeabi-v7aECLIPSE ANDROID PROJECT IMPORT SUMMARY
 ======================================
 
 Ignored Files:
@@ -18,13 +18,19 @@ so manually move them:
 * javadoc\org\opencv\
 * javadoc\org\opencv\android\
 * javadoc\org\opencv\android\BaseLoaderCallback.html
+* javadoc\org\opencv\android\Camera2Renderer.html
 * javadoc\org\opencv\android\CameraBridgeViewBase.CvCameraViewFrame.html
 * javadoc\org\opencv\android\CameraBridgeViewBase.CvCameraViewListener.html
 * javadoc\org\opencv\android\CameraBridgeViewBase.CvCameraViewListener2.html
 * javadoc\org\opencv\android\CameraBridgeViewBase.ListItemAccessor.html
 * javadoc\org\opencv\android\CameraBridgeViewBase.html
+* javadoc\org\opencv\android\CameraGLRendererBase.html
+* javadoc\org\opencv\android\CameraGLSurfaceView.CameraTextureListener.html
+* javadoc\org\opencv\android\CameraGLSurfaceView.html
+* javadoc\org\opencv\android\CameraRenderer.html
 * javadoc\org\opencv\android\FpsMeter.html
 * javadoc\org\opencv\android\InstallCallbackInterface.html
+* javadoc\org\opencv\android\JavaCamera2View.html
 * javadoc\org\opencv\android\JavaCameraView.JavaCameraSizeAccessor.html
 * javadoc\org\opencv\android\JavaCameraView.html
 * javadoc\org\opencv\android\LoaderCallbackInterface.html
@@ -81,16 +87,11 @@ so manually move them:
 * javadoc\org\opencv\dnn\
 * javadoc\org\opencv\dnn\DictValue.html
 * javadoc\org\opencv\dnn\Dnn.html
-* javadoc\org\opencv\dnn\Importer.html
 * javadoc\org\opencv\dnn\Layer.html
 * javadoc\org\opencv\dnn\Net.html
 * javadoc\org\opencv\dnn\package-frame.html
 * javadoc\org\opencv\dnn\package-summary.html
 * javadoc\org\opencv\dnn\package-tree.html
-* javadoc\org\opencv\engine\
-* javadoc\org\opencv\engine\package-frame.html
-* javadoc\org\opencv\engine\package-summary.html
-* javadoc\org\opencv\engine\package-tree.html
 * javadoc\org\opencv\features2d\
 * javadoc\org\opencv\features2d\AKAZE.html
 * javadoc\org\opencv\features2d\AgastFeatureDetector.html
@@ -99,11 +100,9 @@ so manually move them:
 * javadoc\org\opencv\features2d\BOWKMeansTrainer.html
 * javadoc\org\opencv\features2d\BOWTrainer.html
 * javadoc\org\opencv\features2d\BRISK.html
-* javadoc\org\opencv\features2d\DescriptorExtractor.html
 * javadoc\org\opencv\features2d\DescriptorMatcher.html
 * javadoc\org\opencv\features2d\FastFeatureDetector.html
 * javadoc\org\opencv\features2d\Feature2D.html
-* javadoc\org\opencv\features2d\FeatureDetector.html
 * javadoc\org\opencv\features2d\Features2d.html
 * javadoc\org\opencv\features2d\FlannBasedMatcher.html
 * javadoc\org\opencv\features2d\GFTTDetector.html
@@ -130,6 +129,7 @@ so manually move them:
 * javadoc\org\opencv\imgproc\package-tree.html
 * javadoc\org\opencv\ml\
 * javadoc\org\opencv\ml\ANN_MLP.html
+* javadoc\org\opencv\ml\ANN_MLP_ANNEAL.html
 * javadoc\org\opencv\ml\Boost.html
 * javadoc\org\opencv\ml\DTrees.html
 * javadoc\org\opencv\ml\EM.html
@@ -222,11 +222,11 @@ Moved Files:
 Android Gradle projects use a different directory structure than ADT
 Eclipse projects. Here's how the projects were restructured:
 
-* AndroidManifest.xml => openCVLibrary330\src\main\AndroidManifest.xml
-* lint.xml => openCVLibrary330\lint.xml
-* res\ => openCVLibrary330\src\main\res\
-* src\ => openCVLibrary330\src\main\java\
-* src\org\opencv\engine\OpenCVEngineInterface.aidl => openCVLibrary330\src\main\aidl\org\opencv\engine\OpenCVEngineInterface.aidl
+* AndroidManifest.xml => openCVLibrary341\src\main\AndroidManifest.xml
+* lint.xml => openCVLibrary341\lint.xml
+* res\ => openCVLibrary341\src\main\res\
+* src\ => openCVLibrary341\src\main\java\
+* src\org\opencv\engine\OpenCVEngineInterface.aidl => openCVLibrary341\src\main\aidl\org\opencv\engine\OpenCVEngineInterface.aidl
 
 Next Steps:
 -----------
