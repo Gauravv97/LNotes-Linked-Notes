@@ -6,13 +6,13 @@ LNotes uses OpenCV for enhancing documents and comes with 5 diffrent filters. Fo
 
 This can be particularly useful when we want to have additional study material in our documents/handwritten notes without physicaly adding them. With LNotes you can do this by assigning marker to your notes and scanning it whenever the document is required.
 
-##Downloads
+## Downloads
 
 Download apk from [here](/apk/)
 
 
 
-##Demo
+## Demo
 
 ![Demo](Sample/Demo.gif)
 
