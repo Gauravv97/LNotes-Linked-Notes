@@ -19,13 +19,12 @@ Download apk from [here](/apk/)
 ## Some Samples
 
 <p align="center">
-<img src="SampleImages/Img1.png" width=600></br>
-<img src="SampleImages/Img2.png" width=600></br>
-<img src="SampleImages/Img3.png" width=600></br>
-<img src="SampleImages/Img6.png" width=600></br>
-<img src="SampleImages/Img4.png" width=600></br>
-<img src="SampleImages/Img5.png" width=600></br>
-<img src="SampleImages/Img9.png" width=600></br>   
+<img src="Sample/Img1.png" width=600></br>
+<img src="Sample/Img2.png" width=600></br>
+<img src="Sample/Img3.png" width=600></br>
+<img src="Sample/Img6.png" width=600></br>
+<img src="Sample/Img5.png" width=600></br>
+<img src="Sample/Img9.png" width=600></br>   
 </p>
 
 ## About
