@@ -32,6 +32,7 @@ This application wouldn't be possible without the great material produced by the
 * [davemorrissey's subsampling-scale-image-view is a major part of the gallery](https://github.com/davemorrissey/subsampling-scale-image-view/)
 * [Claudemir Todo Bom's opennotescanner app for camera design and scanning](https://github.com/ctodobom/OpenNoteScanner)
 * [OpenCv community](https://opencv.org/)
+* [Jhansi Reddy's PolygonView for cropping quadilateral](https://github.com/jhansireddy/AndroidScannerDemo)
 
 ## About
 
