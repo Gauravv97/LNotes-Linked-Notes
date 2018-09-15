@@ -16,6 +16,15 @@ Download apk from [here](/apk/)
 
 ![Demo](Sample/Demo.gif)
 
+## Features
+
+* Assigning image tags to each individual photo
+* PDF creation
+* 5 diffrent scanning modes
+* Sharing in the form of PDF or Images
+* Quadrilateral/4-Point crop
+* Pinch/Double-Tap Zoom in gallery
+
 ## Some Samples
 
 <p align="center">
@@ -32,7 +41,7 @@ This application wouldn't be possible without the great material produced by the
 * [davemorrissey's subsampling-scale-image-view is a major part of the gallery](https://github.com/davemorrissey/subsampling-scale-image-view/)
 * [Claudemir Todo Bom's opennotescanner app for camera design and scanning](https://github.com/ctodobom/OpenNoteScanner)
 * [OpenCv community](https://opencv.org/)
-* [Jhansi Reddy's PolygonView for cropping quadilateral](https://github.com/jhansireddy/AndroidScannerDemo)
+* [Jhansi Reddy's PolygonView for cropping quadrilateral](https://github.com/jhansireddy/AndroidScannerDemo)
 
 ## About
 
