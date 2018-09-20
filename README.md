@@ -34,7 +34,7 @@ Download apk from [here](/apk/)
 
 ### External code
 
-This application wouldn't be possible without the great material produced by the community. I would like to give special thanks to the authors of essencial parts I've got on the internet and used in the code:
+This application wouldn't be possible without the great material produced by the community. I would like to give special thanks to the authors of essential parts I've got on the internet and used in the code:
 
 * [Android-er / GridView code sample](http://android-er.blogspot.com.br/2012/07/gridview-loading-photos-from-sd-card.html)
 * [davemorrissey's subsampling-scale-image-view is a major part of the gallery](https://github.com/davemorrissey/subsampling-scale-image-view/)
