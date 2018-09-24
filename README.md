@@ -46,6 +46,10 @@ This application wouldn't be possible without the great material produced by the
 * [OpenCv community](https://opencv.org/)
 * [Jhansi Reddy's PolygonView for cropping quadrilateral](https://github.com/jhansireddy/AndroidScannerDemo)
 
+### Attributions
+
+* [Zularizal](https://github.com/zularizal) for new [Logos](https://github.com/Gauravv97/LNotes-Linked-Notes/tree/master/Logo)
+
 ## About
 
 Copyright 2018 Gaurav Chaudhari, and licensed under the Apache License, Version 2.0. No attribution is necessary but it's very much appreciated. Star this project if you like it!
